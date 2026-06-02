@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #2e7d32;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Navegação */
+        nav {
+            background: #1b5e20;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seção principal */
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        section p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+        }
+
+        /* Cards de sustentabilidade */
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #1b5e20;
+        }
+
+        /* Footer */
+        footer {
+            background: #2e7d32;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            .cards {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agro Forte</h1>
+        <p>Futuro sustentável: equilíbrio entre produção e meio ambiente</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na Agro Forte, promovemos práticas agrícolas modernas e responsáveis, garantindo produtividade e preservação ambiental. Nosso objetivo é construir um futuro onde a produção agrícola conviva em harmonia com a natureza.</p>
+    </section>
+
+    <section id="sustentabilidade">
+        <h2>Sustentabilidade</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Produção Consciente</h3>
+                <p>Utilizamos tecnologias que aumentam a produtividade sem comprometer o solo ou os recursos hídricos.</p>
+            </div>
+            <div class="card">
+                <h3>Energia Renovável</h3>
+                <p>Investimos em energia solar e eólica para reduzir a pegada de carbono da nossa produção.</p>
+            </div>
+            <div class="card">
+                <h3>Preservação Ambiental</h3>
+                <p>Protegemos áreas naturais e incentivamos a biodiversidade em nossas fazendas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Quer saber mais sobre nossos projetos ou parcerias? Envie um e-mail para <strong>contato@agroforte.com</strong> ou ligue para <strong>(11) 1234-5678</strong>.</p>
+    </section>
+
+    <footer>
+        &copy; 2026 Agro Forte - Todos os direitos reservados
+    </footer>
+</body>
+</html>
